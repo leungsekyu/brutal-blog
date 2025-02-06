@@ -1,2 +1,2 @@
 [build]
-  command = "pnpm exec playwright install-deps chromium && pnpm run build"
+  command = "pnpm exec playwright install --with-deps chromium --no-sandbox && pnpm run build"
