@@ -16,7 +16,7 @@
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "postinstall": "git config core.hooksPath .githooks"
+    "postinstall": "git config core.hooksPath .githooks && pnpm exec playwright install-deps chromium"
   },
   "dependencies": {
     "@astrojs/mdx": "^4.0.8",
